@@ -13,7 +13,7 @@
 // Additionally:
 
 // Hint: you may find it helpful to read up on and use the following jQuery methods: .submit(), preventDefault(), toggleClass(), and closest().
-$(function main() {
+
 
 $("#js-shopping-list-form").on('submit', event => {
     let value = $('#shopping-list-entry').val();
@@ -40,7 +40,6 @@ $("#js-shopping-list-form").on('submit', event => {
         $(event.currentTarget).parents('li').remove()
     })
 
-})
 
 
   
